@@ -1,1 +1,3 @@
-data/
+# exclude all files of data except git keep
+data/*
+!somefolder/.gitkeep 
