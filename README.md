@@ -39,33 +39,27 @@ To solve
 First we have to download the data, to do so we are going to use AWS cli, since 
 it is mantained at optimal levels and it uses multi threading to copy multiple files simultaneously,
 so the copy operation takes less elapsed time.
-'''
-https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
-'''
+
 
 Follow the instruction to have it installed in the wizard.
 
 ### Configure  AWS Keys
+
 After the instalation, it is required to configure given challenge keys
 under the terminal, run the command.
-'''
+```
 AWS configure
-'''
+```
 
 
 This will follow up with 4 parameters to fill:
-the first one is the access key from hte challenge
-* AWS Access Key ID [****************7SAA]:
-
-next is the secret access key
-* AWS Secret Access Key [****************PQr3]
-
-then the region
-* Default region name [us-west-2]:
-
-and lastly the output format, it is recommended to use json
+the first one is the access key from the challenge
+```
+* AWS Access Key ID: ****************7SAA
+* AWS Secret Access Key: ****************PQr3
+* Default region name: us-west-2
 *Default output format: json
-
+```
 * For security reasons, full keys are not shown
 
 
@@ -75,12 +69,15 @@ column-oriented data file format designed for efficient data storage and retriev
 To download, just go to the terminal, and use the following command to download the data,
 changing the path with the location of the project and the LocalFolderName with the data folder
 
-'''
+```
 aws s3 cp s3://BUCKETNAME/PATH/TO/FOLDER LocalFolderName --recursive
-'''
+```
 
 ## Additional tools to get you started
+about parquet apache
 https://parquet.apache.org/
+about aws cli
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
 
 
