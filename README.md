@@ -31,8 +31,6 @@ pip install -r requirements.txt
 
 
 ## Data
-To solve 
-
 
 
 ### Download AWS CLI
@@ -58,7 +56,7 @@ the first one is the access key from the challenge
 * AWS Access Key ID: ****************7SAA
 * AWS Secret Access Key: ****************PQr3
 * Default region name: us-west-2
-*Default output format: json
+* Default output format: json
 ```
 * For security reasons, full keys are not shown
 
