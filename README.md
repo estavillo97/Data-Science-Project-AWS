@@ -12,9 +12,9 @@ meaningful insights from complex data, and my creativity in approaching open-end
 The challenge consist of 3 challenges, one mandatory and two optional, reffered in:
 * task 1 Understanding User Journeys
 * task_2  Longest Way to TripAdvisor
-* task 3 WIP
+* task_3  User Engagement and Retention Analysis
 
-These 3 files should be runned in this order, given that all tha data cleaning and transformation happens in
+These 2 files should be runned in this order, given that all tha data cleaning and transformation happens in
 file 1
 
 
