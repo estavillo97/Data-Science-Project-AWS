@@ -1,6 +1,5 @@
 # Description
-The goal of this repository is to present the technical challenge given by Nimble Gravity, 
-providing evidence of my proficiency in Python and my ability to extract
+The goal of this repository is to provide evidence of my proficiency in Python and my ability to extract
 meaningful insights from complex data, and my creativity in approaching open-ended questions.
 
 
@@ -57,7 +56,7 @@ the first one is the access key from the challenge
 
 
 ### Download Data
-The data is stored in parquet format. Apache Parquet is an open source, 
+The data is stored in parquet format. Apache Parquet is an open-source, 
 column-oriented data file format designed for efficient data storage and retrieval.
 To download, just go to the terminal, and use the following command to download the data,
 changing the path with the location of the project and the LocalFolderName with the data folder
